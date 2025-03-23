@@ -10,8 +10,8 @@ outputs:
   time:
     description: 'The time workflow finished'
 branding:
-  icon: 'message-circle'
-  color: 'blue'
+  icon: 'shield'
+  color: 'purple'
 runs:
   using: 'node16'
   main: 'index.js'
