@@ -1,0 +1,17 @@
+name: 'ScourNomad CI/CD integration'
+description: 'Execute ScourNomad workflows on project deployments'
+author: 'Andrej Mohar'
+inputs:
+  scournomad-api-key:
+    description: 'The ScourNomad API key'
+    required: true
+    default: ''
+outputs:
+  time:
+    description: 'The time workflow finished'
+branding:
+  icon: 'message-circle'
+  color: 'blue'
+runs:
+  using: 'node16'
+  main: 'index.js'
